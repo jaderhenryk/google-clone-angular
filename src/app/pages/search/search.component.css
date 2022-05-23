@@ -1,0 +1,156 @@
+.search-header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    align-items: flex-start;
+    padding: 22px;
+    border-bottom: 1px solid lightgray;
+}
+
+.search-logo {
+    object-fit: contain;
+    margin-right: 50px;
+    margin-top: 14px;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 40vw;
+    margin: unset;
+    max-width: unset;
+    box-shadow: 0 4px 6px 0 rgba(241, 239, 239, 0.4),
+                0 5px 5px 0 rgba(183, 180, 180, 0.2),
+                0 -5px 5px 0 rgba(241, 239, 239, 0.4)
+}
+
+.search-input:hover {
+    box-shadow: 0 3px 5px 0 rgba(241, 239, 239, 0.7), 
+                0 2px 6px 0 rgba(183, 180, 180, 0.6),
+                0 -2px 6px 0 rgba(241, 239, 239, 0.7)
+                
+}
+
+.search-input > input {
+    flex: 1;
+    font-size: medium;
+    border: none;
+}
+
+.search-input > input:focus {
+    outline: none;
+}
+
+.search-input .pipe {
+    border-left: 1px solid #dadce0;
+    height: 100%;
+}
+
+.search-input .icon:not(:first-child) {
+    margin-left: 13px;
+}
+
+.search-input .goxjub {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.search-input .keyboard-icon,
+.search-input .close-icon {
+    color: gray;
+}
+
+.search-input .close-icon {
+    margin-right: 13px;
+}
+
+.search-input .search-icon {
+    color: #4285f4;
+}
+
+.search-options {
+    display: flex;
+    align-items: center;
+    /* margin-top: 10px; */
+    /* margin-bottom: 0; */
+}
+
+.search-options-left,
+.search-options-right {
+    display: flex;
+}
+
+.search-options-right {
+   margin-left: 80px;
+}
+
+.search-option {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-bottom: -10px;
+}
+
+.search-option a {
+    color: #5f6368;
+    text-decoration: none;
+    margin-left: 5px;
+    vertical-align: bottom;
+}
+
+.search-option .option-icon {
+    color: #5f6368;
+    font-size: 22px;
+}
+
+.search-result-count {
+    color: #70757a;
+    font-size: 14px;
+}
+
+.search-results {
+    max-width: 650px;
+    margin-top: 20px;
+    margin-left: 165px;
+    margin-bottom: 100px;
+}
+
+.search-result {
+    margin: 20px 0;
+}
+
+.search-result p {
+    margin-top: -12px;
+}
+
+.search-result-title {
+    text-decoration: none;
+}
+
+.search-result-title:hover {
+    text-decoration: underline;
+}
+
+.search-result-title > h2 {
+    font-weight: 500;
+}
+
+.search-result-image {
+    object-fit: contain;
+    height: 22px;
+    width: 22px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.search-result-snippet {
+    margin-top: 10px;
+}
